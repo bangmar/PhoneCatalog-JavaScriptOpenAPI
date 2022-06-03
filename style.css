@@ -1,0 +1,94 @@
+h1,
+h2,
+h3 {
+    font-family: fantasy;
+    line-height: 5px;
+}
+
+p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+header {
+    background-color: rgb(242, 240, 240);
+    padding: 10px 10px 10px 7%;
+    margin: auto;
+    box-shadow: 0px 7px rgba(87, 86, 86, 0.241);
+}
+
+footer {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(41, 40, 40);
+    color: white;
+    padding: 10px;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+.collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.active,
+.collapsible:hover {
+    background-color: #ccc;
+}
+
+.content {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.content section {
+    padding: 20px;
+    display: flex;
+    gap: 50px;
+}
+
+.content section p {
+    font-size: 14px;
+}
+
+.content section .phoneImage {
+    background-color: #ccc;
+    box-shadow: 3px 3px 10px rgba(68, 68, 68, 0.592);
+}
+
+.release-date {
+    font-style: italic;
+    font-weight: bold;
+}
+
+ul {
+    padding: 40px 10% 40px 10%;
+}
+
+li {
+    list-style: none;
+    padding: 5px;
+}
+
+.imgCatalog {
+    width: 200px;
+}
